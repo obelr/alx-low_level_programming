@@ -1,19 +1,6 @@
-#include "1-pi.h"
-#include "1-pi.h"
-#include <stdio.h>
+#ifndef _PI_
+#define _PI_
 
-/**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
- */
-int main(void)
-{
-	float a;
-	float r;
+#define PI 3.14159265359
 
-	r = 98;
-	a = PI * r * r;
-	printf("%.3f\n", a);
-	return (0);
-}
+#endif
